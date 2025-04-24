@@ -1,12 +1,5 @@
 from sqlalchemy import create_engine, text
 
-# 替換以下資訊為你的資料庫設定
-username = 'root'          # MySQL 使用者名稱
-password = 'dog850144'     # MySQL 密碼
-host = 'localhost'         # 主機名稱
-port = 3306                # MySQL 預設 port
-database = 'demo'          # 你要連線的資料庫名稱
-
 # 建立連線字串
 connection_str = f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}"
 
